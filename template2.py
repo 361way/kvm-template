@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 ###################################################################
-#Version 0.1
+#Version 2.0
+#by wwww.361way.com
 #Function Description:
 #Batch automatically generated/delete VM
 #1.Generated VM
