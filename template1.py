@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 ###################################################################
-#Version 0.1
+#Version 1.0
 #Function Description:
 #Batch automatically generated/delete VM
 #1.Generated VM
