@@ -9,6 +9,8 @@ kvm-template
 
 
 V2.0版里一定要指定6个参数，在删除里，后面两个参数可以随意写，不做验证
-#Action,Vm_name,Template_img_file,Template_xml_file,VM_mem,VM_vcpu
-add,mc,template.qcow2,template_qcow2.xml,1024,1
-delete,nagios,template.qcow2,template_qcow2.xml,0,0
+
+
+    #Action,Vm_name,Template_img_file,Template_xml_file,VM_mem,VM_vcpu
+    add,mc,template.qcow2,template_qcow2.xml,1024,1
+    delete,nagios,template.qcow2,template_qcow2.xml,0,0
