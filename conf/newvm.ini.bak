@@ -1,0 +1,2 @@
+#Action,Vm_name,Template_img_file,Template_xml_file,VM_mem,VM_vcpu
+delete,test04,template.qcow2,template_qcow2.xml,2048,2
