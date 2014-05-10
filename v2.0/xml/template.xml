@@ -1,12 +1,12 @@
 <!--
 WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE 
 OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
-  virsh edit ppd_monitor
+  virsh edit 361way
 or other application using the libvirt API.
 -->
 
 <domain type='kvm'>
-  <name>ppd_monitor</name>
+  <name>361way</name>
   <uuid>d7f551e1-4fec-5ae1-9b6d-02f807bd35ea</uuid>
   <memory unit='KiB'>1048576</memory>
   <currentMemory unit='KiB'>1048576</currentMemory>
@@ -27,7 +27,7 @@ or other application using the libvirt API.
   <devices>
     <emulator>/usr/libexec/qemu-kvm</emulator>
     <disk type='file' device='disk'>
-      <driver name='qemu' type='raw' cache='none'/>
+      <driver name='qemu' type='qcow2' cache='none'/>
       <source file='/vm/linux/monitor.img'/>
       <target dev='vda' bus='virtio'/>
       <address type='pci' domain='0x0000' bus='0x00' slot='0x04' function='0x0'/>

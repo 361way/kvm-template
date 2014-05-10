@@ -32,7 +32,7 @@ template_img_path="/template/img"
 template_xml_path="/template/xml"
 vm_img_path="/file"
 vm_xml_path="/etc/libvirt/qemu"
-vm_file="/template/conf/newvm.ini"
+vm_file="/template/conf/vm.ini"
 uri="qemu:///system"
 def file_exists(file):
     if os.path.exists(file):
