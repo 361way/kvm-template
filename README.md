@@ -3,6 +3,7 @@ kvm-template
 [order by  www.361way.com](http://www.361way.com)<br />
 
 这里一共有三个版本的脚本，作用是一致的都是利用模板来快速的创建kvm guest主机
+
     shell/create_kvm.sh为shell脚本版本 ，来自51cto上rolandqu写的一个版本
     v1.0为python重写的1.0版本 ，来自51cto坏男孩的版本
     v2.0为python重写的2.0版本 ，这个是我写的一个版本，主要参照坏男孩的版本，做了功能增强和xml块的优化
